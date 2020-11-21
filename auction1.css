@@ -382,6 +382,7 @@ margin-top: 10%;
     /* margin-top:5%;
     margin-bottom:5%; */
    padding-top: 5%; 
+   margin-top: 30px;
    padding-bottom: 5%;
 }
 
@@ -622,7 +623,95 @@ font-weight: bold;
 
 }
 
+/* bidlogform */
 
+.bidform{
+    margin: 20px;
+    box-shadow: 4px 5px 8px grey;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.bidlabel{
+    display: block;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.bidinput{
+    width: 60%;
+    /* max-width: 400px; */
+    padding: 10px;
+    font-size: 20px;
+    transition: 2s transform;
+}
+
+.bidinput:hover{
+    transform: scale(1.2,1.2);
+    
+}
+
+.biddingsub{
+     display: block;
+    width: 30%;
+    max-width: 200px;
+    font-size: 25px;
+    margin: 10px; 
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffd57e;
+    margin-bottom: 50px;
+}
+
+.conbidform{
+    /* margin: auto;
+    width: 70%;
+    /*display: flex;
+    justify-content: center; */
+    /* background-image: linear-gradient(#686d76,#eeeeee); */
+    padding-left: 10%;
+}
+
+
+/*  this is for showbid section */
+
+.contaishow{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    top:150px  ;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.divconsho{
+    width:200px;
+    height: 200px;
+    background-color: #f6f6f6cc ;
+    margin: 10px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: 4px 5px 8px grey;
+     transition: 2s transform;
+   
+}
+
+.divconsho:hover{
+    transform: scale(1.5,1.5);
+}
+
+.divconsho p{
+    margin-top: 0.5rem;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    font-size:30px ;
+    font-weight: 900;
+}
 
 
 

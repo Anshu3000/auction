@@ -6,7 +6,8 @@
     <title>Auction.com</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- <link rel="stylesheet" href="./auction1.css">   
+ <link rel="stylesheet" href="./auction1.css"> 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
  <section class="container1">
@@ -18,7 +19,7 @@
         </div>
          <div class="link1">
              <ul>
-                 <li> <a href="">Home</a></li>
+                 <li> <a href="./index.html">Home</a></li>
              </ul>
          </div> 
         
@@ -30,7 +31,7 @@
 
         <div class="link1" >
             <ul>
-                <li> <a href="">sell</a></li>
+                <li> <a href="./sell1.html">sell</a></li>
             </ul>
         </div>
 
@@ -81,7 +82,7 @@
   <div class="link-box">
         <div class="link1">
             <ul>
-                <li> <a href="">Home</a></li>
+                <li> <a href="./index.html">Home</a></li>
             </ul>
         </div>
         
@@ -93,7 +94,7 @@
         
         <div class="link1">
             <ul>
-                <li> <a href="">sell</a></li>
+                <li> <a href="./sell1.html">sell</a></li>
             </ul>
         </div>
         
@@ -107,7 +108,7 @@
             <ul>
                 <li> <a href="" class="fa fa-angle-double-down">service</a></li>
                 <div class="serv1">
-                    <li><a href="">sell item</a></li>
+                    <li><a href="./sell1.html">sell item</a></li>
                     <li><a href="">buy item</a></li>
                     <li><a href="">submit a bid</a></li>
                 </div>
@@ -155,7 +156,7 @@
 
    <!-- first page over -->
 
-     <section class="container21">
+     <section class="container21"  data-aos="fade-right">
           <h1 class="howi1">how its work ?</h1> 
       <div class="howblock">
          <div class="hdivbloc">
@@ -392,4 +393,12 @@
 </body>
 <script src="auction2.js">
 </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 150,
+        duration: 1000,
+    });
+</script>
+
 </html>
